@@ -1,0 +1,24 @@
+(Fill out this file with brief answers.)
+
+Name(s) and NetID(s) of group members: Christopher Ambrus (caa66)
+
+Time spent on the assignment, in hours: 50
+
+Implementation strategy: First completed the algorithm and made test cases for it. After it worked
+properly, I started on the seek function. I made a working but non-efficient version of seek and
+moved on to scram. I then optimized scram and then seek as much as I could. Lastly, I fixed the
+spin loop to decrease the cpu usage and further attempted to optimize the seek function.
+    (describe how you went about implementing the assignment and how the work was divided between the partners.)
+
+Testing strategy: I modeled the test cases after the already given one but changing the vertexes
+and edges
+    (how did you perform testing and design test cases to achieve coverage?)
+
+Known problems: There are no known issues but the seek and scram functions can likely be improved
+    (are there any things that do not work?)
+
+Comments on the assignment: Fixing concurrency was a bit of a hassle because it's hard to notice
+any change on my overall cpu utilization. I would have to look at individual cores which I feel
+not everyone knows about and would not be able to solve the issue. Anyone with a good cpu will have
+significantly less usage compared to an inefficient mac laptop which you would even hear the fans
+run.
